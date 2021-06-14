@@ -1,0 +1,62 @@
+<style>
+  html {
+      height: 100%;/*needed to set background color*/
+  }
+  body {
+    background-color: #004080;
+  }
+  .div-background {
+    background-color: #008080;
+  }
+  .main-image {
+    max-width: 100%;
+    height: auto;
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  .image-border {
+    border-color: gold;
+    border-width: 10px;
+    border-style: inset;
+    border-radius: 10px;/*radius seems to stay constant*/
+  }
+  h1 {
+    color: gold;
+    font-family: "Candara", Times, serif;
+    font-size: 50px;
+    text-align: center;
+  }
+  h2 {
+    color: white;
+    font-family: "Candara", Times, serif;
+    font-size: 30px;
+    text-align: center;
+  }
+  p {
+    color: gold;
+  }
+  ul li {
+    color: white;
+    padding: 5px 0px;
+  }
+  #bottom-text {
+    color: gold;
+    font-family: "Candara", Times, serif;
+    text-align: center;
+  }
+  #timeline-text {
+    color: white;
+  }
+  #quote-text {
+    color: white;
+    text-align: center;
+  }
+  .text-spacing {
+    margin: 10px;
+    padding: 10px;
+  }
+</style>
